@@ -1,0 +1,32 @@
+# URL short name:
+#       - 'https://<complete URL here>'  Note: change the Unix epoch time in Monocle URL to {time_from} and {time_to}
+#       - '<Tagging and file name for the dashboard URL>
+#
+
+awrt:
+    - 'https://grafana.monocle.cts.infor.com/d/yz3UewXMz/csf-dashboards-infor-executive-application-dashboard?viewPanel=60&orgId=1&from={time_from}&to={time_to}&refresh=15m&var-time_inter=5m&var-farmType=All&var-farm=prd201&var-farm=prd202&var-farm=prd203&var-farm=prd204&var-farm=prd205&var-farm=prd206&var-farm=prd207&var-farm=prd210&var-farm=prd220&var-farm=prd231&var-farm=prd241&var-farm=preprd101&var-app=All&var-tenantType=All&var-ds=InfluxDB%20Cloud'
+    - 'AWRT'
+
+elb:
+    - 'https://grafana.monocle.cts.infor.com/d/6ikQewuMz/csf-dashboards-mt-capacity-management?orgId=1&viewPanel=267&from={time_from}&to={time_to}&var-ds=InfluxDB%20Cloud&var-time_inter=5m&var-region=us-east-1&var-tenant=All&var-farm=203&var-service=All&var-db=tam06-h&var-db=tam06-j&var-mCap_ds='
+    - 'ELB'
+
+dbcpu:
+    - 'https://grafana.monocle.cts.infor.com/d/6ikQewuMz/csf-dashboards-mt-capacity-management?viewPanel=129&orgId=1&from={time_from}&to={time_to}&var-ds=InfluxDB%20Cloud&var-time_inter=10m&var-region=us-east-1&var-tenantOld=All&var-farmOld=tb5&var-dbOld=All&var-tenant=All&var-farm=201&var-farm=202&var-farm=203&var-farm=204&var-farm=205&var-farm=206&var-farm=207&var-service=All&var-db=tam01&var-db=tam04&var-db=tam06&var-db=tam08&var-db=tam09&var-db=tam15&var-db=tam16&var-db=tam17&var-db=tam18&var-db=tam19&var-db=tam21&var-db=tam22&var-db=tam24&var-db=tam27&var-db=tam28&var-db=tam30&var-db=tam31&var-db=tam32&var-db=tam35&var-db=tam36&var-db=tam37&var-db=tam38&var-db=tam39&var-db=tam40&var-db=tam41&var-db=tam42&var-db=tam43&var-db=tam44&var-db=tam46&var-db=tamca20'
+    - 'DBCPU'
+
+cpu:
+    - 'https://grafana.monocle.cts.infor.com/d/6ikQewuMz/csf-dashboards-mt-capacity-management?viewPanel=272&orgId=1&from={time_from}&to={time_to}&refresh=15m&var-ds=InfluxDB%20Cloud&var-time_inter=5m&var-region=us-east-1&var-tenantOld=All&var-farmOld=207&var-dbOld=All&var-mCap_ds=&var-tenant=All&var-farm=201&var-farm=202&var-farm=203&var-farm=204&var-farm=205&var-farm=206&var-farm=207&var-farm=210&var-farm=220&var-farm=231&var-farm=241&var-service=All&var-db=tam06-h&var-db=tam06-j'
+    - 'CPU'
+
+swap:
+    - 'https://grafana.monocle.cts.infor.com/d/6ikQewuMz/csf-dashboards-mt-capacity-management?viewPanel=91&orgId=1&from={time_from}&to={time_to}&refresh=15m&var-ds=InfluxDB%20Cloud&var-time_inter=5m&var-region=us-east-1&var-tenantOld=All&var-farmOld=207&var-dbOld=All&var-mCap_ds=&var-tenant=All&var-farm=201&var-farm=202&var-farm=203&var-farm=204&var-farm=205&var-farm=206&var-farm=207&var-farm=210&var-farm=220&var-farm=231&var-farm=241&var-service=All&var-db=tam06-h&var-db=tam06-j'
+    - 'SWAP'
+
+dbblocked:
+    - 'https://grafana.monocle.cts.infor.com/d/6ikQewuMz/csf-dashboards-mt-capacity-management?viewPanel=191&orgId=1&from={time_from}&to={time_to}&refresh=15m&var-ds=InfluxDB%20Cloud&var-time_inter=5m&var-region=eu-west-2&var-tenantOld=All&var-farmOld=220&var-dbOld=All&var-mCap_ds=&var-tenant=All&var-farm=220&var-service=All&var-db=tamstg02&var-db=tamstg03&var-db=TAMSTG04&var-db=tam05&var-db=tam15&var-db=tam22&var-db=tam24&var-db=tam30&var-db=tam40&var-db=tam42&var-db=tam45&var-db=tamstg05&var-db=tam01&var-db=tam04&var-db=tam06&var-db=tam08&var-db=tam09&var-db=tam17&var-db=tam18&var-db=tam19&var-db=tam27&var-db=tam28&var-db=tam32&var-db=tam37&var-db=tam38&var-db=tam43&var-db=tam44&var-db=tam16&var-db=tam03&var-db=tam21&var-db=tam31&var-db=tam35&var-db=tam36&var-db=tam39&var-db=tam41&var-db=tam46&var-db=tamap14&var-db=tamca20&var-db=tameu10'
+    - 'DBBLOCKED'
+
+mscm:
+    - 'https://grafana.monocle.cts.infor.com/d/iRi3SN1Zz/prd-1?orgId=64&refresh=5m&from={time_from}&to={time_to}'
+    - 'MSCM'
